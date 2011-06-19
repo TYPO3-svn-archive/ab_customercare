@@ -99,7 +99,7 @@ $TCA['tx_abcustomercare_domain_model_company'] = array(
 			'config' => array(
 				'type' => 'input',
 				'size' => 30,
-				'eval' => 'trim,required'
+				'eval' => 'trim'
 			),
 		),
 		'telephone' => array(
