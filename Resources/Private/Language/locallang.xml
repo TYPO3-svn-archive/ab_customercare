@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the Customer Care extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_abcustomercare_domain_model_company">Company</label>
+			<label index="tx_abcustomercare_domain_model_company.name">name</label>
+			<label index="tx_abcustomercare_domain_model_company.telephone">telephone</label>
+			<label index="tx_abcustomercare_domain_model_company.email">email</label>
+			<label index="tx_abcustomercare_domain_model_company.is_active">isActive</label>
+			<label index="tx_abcustomercare_domain_model_company.address">address</label>
+			<label index="tx_abcustomercare_domain_model_company.take_action">takeAction</label>
+			<label index="tx_abcustomercare_domain_model_address">Address</label>
+			<label index="tx_abcustomercare_domain_model_address.street">street</label>
+			<label index="tx_abcustomercare_domain_model_address.number">number</label>
+			<label index="tx_abcustomercare_domain_model_address.zip">zip</label>
+			<label index="tx_abcustomercare_domain_model_address.city">city</label>
+			<label index="tx_abcustomercare_domain_model_employee">Employee</label>
+			<label index="tx_abcustomercare_domain_model_employee.last_name">lastName</label>
+			<label index="tx_abcustomercare_domain_model_employee.first_name">firstName</label>
+			<label index="tx_abcustomercare_domain_model_employee.telephone">telephone</label>
+			<label index="tx_abcustomercare_domain_model_employee.email">email</label>
+			<label index="tx_abcustomercare_domain_model_employee.address">address</label>
+			<label index="tx_abcustomercare_domain_model_employee.is_employeed">isEmployeed</label>
+			<label index="tx_abcustomercare_domain_model_employee.take_action">takeAction</label>
+			<label index="tx_abcustomercare_domain_model_action">Action</label>
+			<label index="tx_abcustomercare_domain_model_action.type">type</label>
+			<label index="tx_abcustomercare_domain_model_action.channel">channel</label>
+			<label index="tx_abcustomercare_domain_model_action.files">files</label>
+			<label index="tx_abcustomercare_domain_model_action.time">time</label>
+			<label index="tx_abcustomercare_domain_model_action.notes">notes</label>
+		</languageKey>
+	</data>
+</T3locallang>

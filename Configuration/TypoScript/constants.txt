@@ -1,0 +1,30 @@
+plugin.tx_abcustomercare {
+	view {
+		# cat=plugin.tx_abcustomercare/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:ab_customercare/Resources/Private/Templates/
+		# cat=plugin.tx_abcustomercare/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:ab_customercare/Resources/Private/Partials/
+		# cat=plugin.tx_abcustomercare/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:ab_customercare/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_abcustomercare//a; type=int+; label=Default storage PID
+		storagePid = 
+	}
+}
+
+
+module.tx_abcustomercare {
+	view {
+		# cat=module.tx_abcustomercare/file; type=string; label=Path to template root (BE)
+		templateRootPath = EXT:ab_customercare/Resources/Private/Backend/Templates/
+		# cat=module.tx_abcustomercare/file; type=string; label=Path to template partials (BE)
+		partialRootPath = EXT:ab_customercare/Resources/Private/Backend/Partials/
+		# cat=module.tx_abcustomercare/file; type=string; label=Path to template layouts (BE)
+		layoutRootPath = EXT:ab_customercare/Resources/Private/Backend/Layouts/
+	}
+	persistence {
+		# cat=module.tx_abcustomercare//a; type=int+; label=Default storage PID
+		storagePid = 
+	}
+}

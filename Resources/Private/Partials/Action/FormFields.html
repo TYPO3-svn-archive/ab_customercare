@@ -1,0 +1,20 @@
+<label for="type">
+	<f:translate key="tx_abcustomercare_domain_model_action.type" />
+</label><br />
+	<f:form.textbox property="type" /><br />
+<label for="channel">
+	<f:translate key="tx_abcustomercare_domain_model_action.channel" />
+</label><br />
+	<f:form.textbox property="channel" /><br />
+<label for="files">
+	<f:translate key="tx_abcustomercare_domain_model_action.files" />
+</label><br />
+	<f:form.upload property="files" /><br />
+<label for="time">
+	<f:translate key="tx_abcustomercare_domain_model_action.time" />
+</label><br />
+	<f:form.textbox property="time"  value="{action.time->f:format.date()}" /><br />
+<label for="notes">
+	<f:translate key="tx_abcustomercare_domain_model_action.notes" />
+</label><br />
+	<f:form.textarea property="notes" cols="40" rows="15" /><br />

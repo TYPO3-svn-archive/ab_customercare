@@ -1,0 +1,44 @@
+plugin.tx_abcustomercare {
+	view {
+		templateRootPath = {$plugin.tx_abcustomercare.view.templateRootPath}
+		partialRootPath = {$plugin.tx_abcustomercare.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_abcustomercare.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_abcustomercare.persistence.storagePid}
+	}
+}
+
+plugin.tx_abcustomercare._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-ab-customercare table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-ab-customercare table th {
+		font-weight:bold;
+	}
+
+	.tx-ab-customercare table td {
+		vertical-align:top;
+	}
+)
+
+
+
+ # Module configuration
+module.tx_abcustomercare {
+	persistence {
+		storagePid = {$module.tx_abcustomercare.persistence.storagePid}
+	}
+	view {
+		templateRootPath = {$module.tx_abcustomercare.view.templateRootPath}
+		partialRootPath = {$module.tx_abcustomercare.view.partialRootPath}
+		layoutRootPath = {$module.tx_abcustomercare.view.layoutRootPath}
+	}
+}
